@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaka Marwari | Business Mindset</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+/* ===== GLOBAL ===== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0f0f0f;
+color:#e6e6e6;
+line-height:1.6;
+}
+
+:root{
+--accent:#e0a80d;
+}
+
+/* ===== NAV ===== */
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#111;
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+nav h1{
+color:var(--accent);
+font-size:20px;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav a{
+color:#ccc;
+text-decoration:none;
+font-size:14px;
+}
+
+nav a:hover{
+color:var(--accent);
+}
+
+/* ===== HERO ===== */
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:0 20px;
+}
+
+.hero h2{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero span{
+color:var(--accent);
+}
+
+.hero p{
+max-width:600px;
+opacity:.8;
+margin-bottom:30px;
+}
+
+.btn{
+padding:12px 25px;
+background:var(--accent);
+color:black;
+text-decoration:none;
+border-radius:4px;
+font-weight:600;
+}
+
+/* ===== SECTIONS ===== */
+
+section{
+padding:100px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+section h3{
+font-size:28px;
+margin-bottom:20px;
+color:var(--accent);
+}
+
+/* ===== ABOUT ===== */
+
+.about{
+display:grid;
+grid-template-columns:1fr 2fr;
+gap:40px;
+align-items:center;
+}
+
+.photo{
+width:220px;
+height:220px;
+border-radius:50%;
+background:#222;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:14px;
+opacity:.7;
+}
+
+/* ===== SKILLS ===== */
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skill{
+background:#1a1a1a;
+padding:10px 18px;
+border-radius:20px;
+font-size:14px;
+}
+
+/* ===== PROJECTS ===== */
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#151515;
+padding:25px;
+border-radius:8px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+background:#1c1c1c;
+}
+
+.card h4{
+color:var(--accent);
+margin-bottom:10px;
+}
+
+/* ===== CONTACT ===== */
+
+.contact-links{
+display:flex;
+flex-direction:column;
+gap:10px;
+margin-top:20px;
+}
+
+.contact-links a{
+color:#ccc;
+text-decoration:none;
+}
+
+.contact-links a:hover{
+color:var(--accent);
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+text-align:center;
+padding:30px;
+background:#111;
+font-size:14px;
+}
+
+/* ===== MOBILE ===== */
+
+@media(max-width:768px){
+
+.hero h2{
+font-size:36px;
+}
+
+.about{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+.photo{
+margin:auto;
+}
+
+nav ul{
+display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+
+<nav>
+<h1>Kaka Marwari</h1>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+<h2>Decoding <span>Marwari Business Mindset</span></h2>
+
+<p>
+Traditional business wisdom, market psychology, and wealth thinking explained
+through modern storytelling.
+</p>
+
+<a href="#projects" class="btn">View Work</a>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h3>About</h3>
+
+<div class="about">
+
+<div class="photo">
+Photo Placeholder
+</div>
+
+<p>
+
+Kaka Marwari is a content creator focused on explaining the psychology of
+business, wealth creation, and market behavior through traditional Marwari
+trading wisdom.
+
+The goal is to decode how experienced traders and business families think
+about money, risk, customers, and long-term growth.
+
+Through storytelling and simple business formulas, this platform helps
+entrepreneurs understand how real wealth is built over time.
+
+</p>
+
+</div>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<h3>Skills</h3>
+
+<div class="skills">
+
+<div class="skill">Business Strategy</div>
+<div class="skill">Market Psychology</div>
+<div class="skill">Trading Concepts</div>
+<div class="skill">Entrepreneurship</div>
+<div class="skill">Content Creation</div>
+<div class="skill">Storytelling</div>
+<div class="skill">Financial Thinking</div>
+<div class="skill">Business Education</div>
+
+</div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h3>Projects</h3>
+
+<div class="projects">
+
+<div class="card">
+<h4>Marwari Mindset Series</h4>
+<p>Short videos explaining traditional Marwari business thinking.</p>
+</div>
+
+<div class="card">
+<h4>Market Psychology</h4>
+<p>Understanding fear, greed, and patterns in financial markets.</p>
+</div>
+
+<div class="card">
+<h4>Business Wisdom</h4>
+<p>Simple business rules that experienced traders follow.</p>
+</div>
+
+<div class="card">
+<h4>Wealth Philosophy</h4>
+<p>Explaining how real wealth is created through patience and strategy.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h3>Contact</h3>
+
+<p>Connect with me on social platforms.</p>
+
+<div class="contact-links">
+
+<a href="https://www.instagram.com/kaka.marwadi?igsh=b2NtOHk5ZnBlNHVp" target="_blank">
+Instagram
+</a>
+
+<a href="#" target="_blank">
+YouTube (Add your link)
+</a>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Kaka Marwari | Business Mindset</p>
+
+</footer>
+
+
+<!-- SCROLL ANIMATION -->
+
+<script>
+
+const observer = new IntersectionObserver(entries => {
+
+entries.forEach(entry => {
+
+if(entry.isIntersecting){
+
+entry.target.style.opacity = 1
+entry.target.style.transform = "translateY(0px)"
+
+}
+
+})
+
+})
+
+document.querySelectorAll("section").forEach(sec => {
+
+sec.style.opacity = 0
+sec.style.transform = "translateY(40px)"
+sec.style.transition = "1s"
+
+observer.observe(sec)
+
+})
+
+</script>
+
+</body>
+</html>
